@@ -23,7 +23,7 @@ function App() {
   const [timeframe, setTimeframe] = useState("weekly");
 
   return (
-    <div className="bg-[hsl(226_43%_10%)] lg:min-h-screen lg:flex lg:justify-center lg:items-center py-10 px-4 ">
+    <main className="bg-[hsl(226_43%_10%)] lg:min-h-screen lg:flex lg:justify-center lg:items-center py-10 px-4 ">
       <div className="grid lg:grid-cols-4 lg:grid-rows-2 grid-cols-1 gap-6 sm:max-w-[30rem] mx-auto lg:max-w-none">
         <div className="lg:col-start-1 lg:col-end-2 lg:row-start-1 lg:row-end-3 bg-[hsl(235_46%_20%)] rounded-2xl ">
           <div className="bg-[hsl(246_80%_60%)] px-4 py-6 lg:pb-10 rounded-2xl flex gap-4 items-center lg:flex-col lg:items-start lg:gap-8">
@@ -35,8 +35,8 @@ function App() {
             <div>
               <p className="text-[hsl(236_100%_87%)] max-w-24">Report for</p>
               <div className="flex justify-center items-center gap-2 lg:flex-col">
-                <p className="rubik-code-300 text-4xl text-white max-w-36">Jeremy</p>
-                <p className="rubik-code-300 text-4xl text-white max-w-36">Robson</p>
+                <p className="rubik-code-300 text-[1.6rem] lg:text-4xl text-white max-w-36">Jeremy</p>
+                <p className="rubik-code-300 text-[1.6rem] lg:text-4xl text-white max-w-36">Robson</p>
               </div>
             </div>
           </div>
@@ -100,7 +100,7 @@ function App() {
           </div>
         ))}
       </div>
-    </div>
+    </main>
   );
 }
 
